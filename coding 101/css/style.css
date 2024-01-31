@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    text-align: center;
+}
+
+
+#secondparagaraph {
+
+
+
+
+    color: brown;
+}
+
+.Header {
+         background-color: grey;
+         padding: 10px;
+         background-image: url("img\book.jpg");
+         background-size: contain;
+         background-repeat: no-repeat;
+         background-position: 0% 40%;
+         height: 300px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoContainer { /* *************************************** This chooses the width and height of the background video******************** */
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.backgroundVideo {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    
+}
+
+p.round3 {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding:5px;
+
+}
+
+/* ******************************************* This is the loader from https://uiverse.io/codebykay101/warm-pig-33 **************************** */
+
+.formcontainer {
+    position: center;
+    margin-top: 400px;
+    margin-left: 1330px;
+    width: 600px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #053b0a;
+    background: linear-gradient(to right, rgb(194, 126, 24), #363795);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+ 
+  
+  .formcontainer form .descr {
+    font-size: 100px;
+    font-weight: 1200;
+    color: #e8e8e8;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input, textarea {
+    margin: 1em 0 1em 0;
+    width: 450px;
+    position: relative;
+  }
+  
+  .input input, textarea {
+    font-size: 160%;
+    padding: 0.7em;
+    outline: none;
+    color: #e8e8e8;
+    border: none;
+    border-bottom: 2px solid #e8e8e8;
+    background: transparent;
+    border-radius: none;
+    width: 100%;
+    resize: none;
+  }
+  
+  .input label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    color: #e8e8e8;
+    padding: 0.7em;
+    margin-left: 0.1em;
+    pointer-events: none;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+  }
+  
+  .input :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    padding: 0.4em;
+    background: transparent;
+  }
+  
+  .input textarea:focus ~ label,
+  .input textarea:valid ~ label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    padding: 0.4em;
+    background: transparent;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(37, 37, 211);
+  }
+  
+  .form button {
+    color: #e8e8e8;
+    font-size: 35px;
+    align-self: flex-start;
+    padding: 0.6em;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 45px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .form button:before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e8e8e8;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .form button:hover:before {
+    opacity: 0.2;
+  }
+  
+  .form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .columns { /* ********** This controls the coloums size, width etc************** */
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .leftColumn {
+    width: 45%;
+    float: left;
+    padding: 15px;
+  }
+
+  .rightColumn  {
+    width: 45%;
+    float: right;
+    padding: 10px;
+  }
+
+  .leftColumn img, .rightColumn img {
+      width: 100%;
+      padding: 40px;
+  }
+
+ img.makeSmaller {
+  width: 70%;
+ }
+ 
+ img.adjustsize {
+  width: 70%;
+ }
+ 
+  
+
+/* ************************************************ End of loader ********************************************* */  
+
+/* ******************************************* This is the loader fromhttps://uiverse.io/Praashoo7/horrible-penguin-32**************************** */
+
+.card {
+   font-size: 40px;
+    font-weight: 1200;
+    color: #e8e8e8;
+    margin: 0 auto;
+    margin-bottom: 4000px;
+    margin-top: 440px;
+    
+    text-align: inherit; 
+
+  width: 17em;
+  height: 22.5em;
+  background: #141414;
+  transition: 1s ease-in-out;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+ /* This creats the contact sheet animation */
+.card span {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 2em;
+}
+
+.card .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 0.72em;
+  margin: 1em;
+}
+
+.card .img {
+  width: 6%;
+  height: 4.8em;
+  background: rgb(114, 173, 19);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.card .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card a {
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+.card a:hover {
+  color: red;
+}
+
+.card button {
+  padding: 0.8em 1.7em;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: .4s ease-in-out;
+}
+
+.card button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+/* ************************************************ End of loader ********************************************* */  
+    
